@@ -1,3 +1,3 @@
-# (Luke Seth and Douglas)
+# (Luke, Seth and Douglas)
 
 ## free-science-lessons
