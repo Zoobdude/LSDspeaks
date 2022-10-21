@@ -1,0 +1,5 @@
+text = "revision but they never actually do any", start = 78.119, url = https://www.youtube.com/watch?v=X1Q3J3g6X2w&t=78s
+text = "and we're gonna start by looking at a", start = 50.489, url = https://www.youtube.com/watch?v=lenvZEcMc60&t=50s
+text = "this gives us a final answer of 72.3", start = 138.48, url = https://www.youtube.com/watch?v=1OAiJEEUiVg&t=138s
+text = "ideas you need to understand", start = 36.719, url = https://www.youtube.com/watch?v=KVQlbfIJMHI&t=36s
+text = "group 5.", start = 203.599, url = https://www.youtube.com/watch?v=ACIhhP0rL4Y&t=203s
