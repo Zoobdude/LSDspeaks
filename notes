@@ -1,1 +1,1 @@
-youtube-dl --external-downloader ffmpeg --external-downloader-args "-ss 00:02:55 -to 00:03:00" -o '/clips/%(title)s.%(ext)s' -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' "https://www.youtube.com/watch?v=0iSuyY3a9L0&t=175s"
+youtube-dl --external-downloader ffmpeg --external-downloader-args "-ss 00:02:55 -to 00:03:00" -o './clips/%(title)s.%(ext)s' -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' "https://www.youtube.com/watch?v=0iSuyY3a9L0&t=175s"
