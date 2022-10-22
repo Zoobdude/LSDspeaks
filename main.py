@@ -18,6 +18,9 @@ def search_dictionary(word, dictionary):
 
 data = {}
 
+inputFileLocation = ("./Transcripts/" + input("Enter the name of the transcription file in the Transcripts folder: "))
+print(inputFileLocation)
+
 with open('transcripts.json', 'r', encoding='cp850') as jsonFile:
     data = json.load(jsonFile)
 
