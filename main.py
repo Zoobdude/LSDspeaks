@@ -8,7 +8,7 @@ def search_dictionary(word, dictionary):
         for value2 in value["transcript"]:
             if value2["text"].count(word):
                 print(f"[{len(list)}]text = \"{value2['text']}\", start = {value2['start']}, url = {value2['url']}")
-                list.append(f"text = \"{value2['text']}\", start = {value2['start']}, url = {value2['url']}\n")
+                list.append(f"text = \"{value2['text']}\", start = {value2['start']}, url = {value2['url']}, word = {word}\n")
 
     if int(len(list)) == 0:
         print("No results found")
