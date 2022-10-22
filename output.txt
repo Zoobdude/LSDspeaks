@@ -1,5 +1,5 @@
-text = "revision but they never actually do any", start = 78.119, url = https://www.youtube.com/watch?v=X1Q3J3g6X2w&t=78s
-text = "and we're gonna start by looking at a", start = 50.489, url = https://www.youtube.com/watch?v=lenvZEcMc60&t=50s
-text = "this gives us a final answer of 72.3", start = 138.48, url = https://www.youtube.com/watch?v=1OAiJEEUiVg&t=138s
-text = "ideas you need to understand", start = 36.719, url = https://www.youtube.com/watch?v=KVQlbfIJMHI&t=36s
-text = "group 5.", start = 203.599, url = https://www.youtube.com/watch?v=ACIhhP0rL4Y&t=203s
+text = "it is never a good solution but it is", start = 905.199, url = https://www.youtube.com/watch?v=cwzcYTeBEvA&t=905s
+text = "Pauline is gonna remind Mario of the", start = 750.72, url = https://www.youtube.com/watch?v=7JZrNlke0GU&t=750s
+text = "give him a way to reconnect and find", start = 1022.959, url = https://www.youtube.com/watch?v=b-zfnbc-AnI&t=1022s
+text = "ya makes you stronger but hey that's", start = 849.519, url = https://www.youtube.com/watch?v=TotdnNDrx1w&t=849s
+text = "of characters would pop up and the", start = 710.579, url = https://www.youtube.com/watch?v=rYjmxcV1se4&t=710s
