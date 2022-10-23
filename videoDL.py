@@ -2,25 +2,23 @@ import re
 import os
 
 def timeCalculator(time):
-    print(time)
-    mins = time % 60
-    sec = time - (mins * 60)
+    print("Time:", time)
+    mins, sec = divmod(time, 60)
+    print(mins, sec)
     if mins < 10:
         mins = "0" + str(mins)
     return("00:" + str(mins) + ":" + str(sec))
+
+if input("Would you like to create a new clips folder? (y/n): ") == "y":
+    os.system("rm -r clips")
+    os.system("mkdir clips")
 
 with open('output.txt', 'r') as o:
     for line in o:
         url = re.search(r"(?<=url = ).*?(?=,)", line).group(0)
         word = re.search(r"(?<=word = ).*?(?=$)", line).group(0)
-        time = re.search(r"(?<=\=)[0-9]+", url).group(0)
-        print(url, word, time)
-        startTime = timeCalculator(int(time) - 3)
-        endTime = startTime + 8)
-        print(startTime, endTime)
-        #os.system(f"youtube-dl --external-downloader ffmpeg --external-downloader-args '-ss {startTime} -to {endTime}' -o './clips/{word}.%(ext)s' -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' 'https://www.youtube.com/watch?v=0iSuyY3a9L0&t=175s'")
-
-
-
-#https://www.youtube.com/watch?v=egbJ8p2UVKk&t=537s
-#regex to find the numbers after the = in https://www.youtube.com/watch?v=egbJ8p2UVKk&t=537s
+        time = int(re.search(r"(?<=\=)[0-9]+", url).group(0))
+        startTime = (timeCalculator(int(time) - 2))
+        endTime = (timeCalculator(int(time) + 4))
+        print("Downloader starting for word: ", word)
+        os.system(f"youtube-dl --external-downloader ffmpeg --external-downloader-args '-ss {startTime} -to {endTime}' -o './clips/{word}.%(ext)s' -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' '{url}'")
