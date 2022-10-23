@@ -1,1 +1,3 @@
 text = "&quot;A badger in a blender.&quot;", start = 197.76, url = https://www.youtube.com/watch?v=-CV-lkyXepA&t=256s, word = badger
+text = "find i guess it's foxes badgers muntjac", start = 126.96, url = https://www.youtube.com/watch?v=C7YhaO87Ans&t=126s, word = badger
+text = "thinking that resistance is a bad thing", start = 67.77, url = https://www.youtube.com/watch?v=2CA1mcYw3IQ&t=67s, word = bad
