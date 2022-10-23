@@ -1,14 +1,1 @@
-text = "You've never, ever wandered at any point
-during that year and a day.", start = 693.72, url = https://www.youtube.com/watch?v=9kmlwZ_BOvU&t=693s, word = never
-text = "&quot;That's the last two there, I'm gonna have that.&quot;", start = 307.54, url = https://www.youtube.com/watch?v=6qNawyzVGbc&t=307s, word = gonna
-text = "years has given them for some nebulous", start = 1161.78, url = https://www.youtube.com/watch?v=_kBlH-DQsEg&t=1161s, word = give
-text = "If the domain doesnÔÇÖt match, it wonÔÇÖt
-type your password in for you.", start = 537.81, url = https://www.youtube.com/watch?v=RGuJga2Gl_k&t=537s, word = you
-text = "Va┼íe lo─Å brzy vstoup├¡ do oblasti,
-kde byli d┼Ö├¡ve spat┼Öeni lid├®.", start = 3.489, url = https://www.youtube.com/watch?v=OcPqk-O-fD4&t=3s, word = up
-
-#regex to find url
-url = re.compile(r'(https?://[^\s]+)')
-
-#regex to find word
-word = re.compile(r'word=([^\s]+)')
+text = "&quot;A badger in a blender.&quot;", start = 197.76, url = https://www.youtube.com/watch?v=-CV-lkyXepA&t=197s, word = badger
