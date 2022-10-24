@@ -4,7 +4,7 @@
 
 Before running the python file, you need to run the dependancy installer
 
-chmod u+x install.sh
+chmod u+x setup.sh
 sudo ./setup.sh
 
 Then you can run the python file
