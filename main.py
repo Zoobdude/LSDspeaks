@@ -4,7 +4,7 @@ import re
 
 def search_dictionary(word, dictionary):
     list = []
-
+    word = f" {word} "
     for value in dictionary:
         for value2 in value["transcript"]:
             if value2["text"].count(word):

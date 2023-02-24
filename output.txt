@@ -1,0 +1,7 @@
+text = "by reducing deforestation and carbon", start = 175.989, url = https://www.youtube.com/watch?v=d3m73r64N2I&t=175s, word =  deforestation 
+text = "efficient fetal hemoglobin is different", start = 111.119, url = https://www.youtube.com/watch?v=AM4lQWv4MFg&t=111s, word =  is 
+text = "at a certain partial pressure an average", start = 98.159, url = https://www.youtube.com/watch?v=K1S7STZ2BrA&t=98s, word =  a 
+text = "bond and this has a major effect on both", start = 154.4, url = https://www.youtube.com/watch?v=Df3tpeeJtHQ&t=154s, word =  major 
+text = "thermal energy now the other issue were", start = 251.48, url = https://www.youtube.com/watch?v=NI5jaeBrIgQ&t=251s, word =  issue 
+text = "more question for you", start = 207.28, url = https://www.youtube.com/watch?v=pJKfVaAU7M4&t=207s, word =  for 
+text = "this will have on planet Earth remember", start = 165.29, url = https://www.youtube.com/watch?v=K5vXnDGcOE4&t=165s, word =  planet 
